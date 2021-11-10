@@ -334,7 +334,7 @@ input:checked ~ .content-test {
   }
 }
 /* If the screen size is 480px or less */
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .content_testimonial-1 .picto {
     padding-top: 100px;
   }
