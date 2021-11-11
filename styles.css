@@ -343,7 +343,16 @@ input:checked ~ .content-test {
 }
 /* If the screen size is 480px or less */
 @media (max-width: 480px) {
- 
+  .d-block, h2{ 
+    padding-bottom: 10px;
+  }
+  #left-zone{
+    margin-top: 50px;
+    height: fit-content;
+  }
+  #right-zone{
+    height: auto;
+  }
   .content_testimonial-1 .picto {
     padding-top: 100px;
   }
