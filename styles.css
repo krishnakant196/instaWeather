@@ -304,7 +304,7 @@ input:checked ~ .content-test {
   opacity: 1;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 480px) {
   #flex-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -342,12 +342,8 @@ input:checked ~ .content-test {
   }
 }
 /* If the screen size is 480px or less */
-<<<<<<< HEAD
 @media (max-width: 480px) {
  
-=======
-@media (max-width: 720px) {
->>>>>>> 99695232629091eb97e4996b592bfa6699a5c069
   .content_testimonial-1 .picto {
     padding-top: 100px;
   }
