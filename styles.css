@@ -346,12 +346,19 @@ input:checked ~ .content-test {
   .d-block, h2{ 
     padding-bottom: 10px;
   }
+  #flex-container{
+    height:480px;
+  }
   #left-zone{
     margin-top: 50px;
     height: fit-content;
+    margin-bottom: 20px;
   }
   #right-zone{
-    height: auto;
+    margin-top: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
   }
   .content_testimonial-1 .picto {
     padding-top: 100px;
